@@ -3,6 +3,6 @@ module "hello-world" {
   version = "1.0.1"
 }
 
-resource "random_string" "test_string" {
+resource "random_string" "test_string2" {
   length = var.string_length
 }
