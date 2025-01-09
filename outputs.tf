@@ -1,3 +1,3 @@
 output "web_server_ip" {
-  value = module.hello-world.web-server-ip
+  value = aws_instance.hello_world.public_ip
 }
